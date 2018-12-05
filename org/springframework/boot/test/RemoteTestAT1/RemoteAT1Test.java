@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springframework.boot.test.RemoteTestAT2;
+package org.springframework.boot.test.RemoteTestAT1;
 
 import org.junit.Test;
 
@@ -22,10 +22,10 @@ import static org.junit.Assert.assertTrue;
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
 @EapAdditionalTestsuite({"modules/testcases/jdkAll/master/springboot/src/main/java"})
-public class RemoteAT2Test {
+public class RemoteAT1Test {
 
     @Test
-    public void remoteAT2() throws Exception {
+    public void remoteAT1() throws Exception {
         assertTrue("Remote repo testing ...", true);
     }
 
