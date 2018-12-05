@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.activemq.testRemoteAT1;
+package org.apache.activemq.testRemoteAT2;
 
 import org.junit.Test;
 
@@ -22,10 +22,10 @@ import static org.junit.Assert.assertTrue;
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
 @EapAdditionalTestsuite({"modules/testcases/jdkAll/master/activemq/src/main/java"})
-public class RemoteAT1Test {
+public class RemoteAT2Test {
 
     @Test
-    public void remoteAT1() throws Exception {
+    public void remoteAT2() throws Exception {
         assertTrue("Remote repo testing ...", true);
     }
 
