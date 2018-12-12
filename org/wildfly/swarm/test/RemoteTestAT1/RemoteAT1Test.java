@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.wildfly.swarm.test.RemoteTestAT2;
+package org.wildfly.swarm.test.RemoteTestAT1;
 
 import org.junit.Test;
 
@@ -22,7 +22,7 @@ import static org.junit.Assert.assertTrue;
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
 @EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java"})
-public class RemoteAT2Test {
+public class RemoteAT1Test {
 
     @Test
     public void remoteAT2() throws Exception {
