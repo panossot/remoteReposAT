@@ -28,6 +28,9 @@ import javax.json.JsonObject;
  *
  * @author Daniel Pfeifer
  */
+import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
+
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java","modules/testcases/jdkAll/server1/basic/src/main/java","modules/testcases/jdkAll/server2/basic/src/main/java"})
 final class KeyTool {
     private RSAPublicKey publicKey;
     private RSAPrivateCrtKey privateKey;

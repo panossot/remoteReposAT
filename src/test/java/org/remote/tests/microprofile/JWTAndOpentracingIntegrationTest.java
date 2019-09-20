@@ -40,6 +40,9 @@ import static org.remote.tests.microprofile.utils.jwt.TokenUtils.createToken;
  * <br>
  * Date: 7/10/18
  */
+import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
+
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java","modules/testcases/jdkAll/server1/basic/src/main/java","modules/testcases/jdkAll/server2/basic/src/main/java"})
 @RunWith(Arquillian.class)
 @RunAsClient
 public class JWTAndOpentracingIntegrationTest {

@@ -29,6 +29,9 @@ import java.security.PrivateKey;
  * <br>
  * Date: 7/9/18
  */
+import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
+
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java","modules/testcases/jdkAll/server1/basic/src/main/java","modules/testcases/jdkAll/server2/basic/src/main/java"})
 public class TokenUtils {
 
     private TokenUtils() {
