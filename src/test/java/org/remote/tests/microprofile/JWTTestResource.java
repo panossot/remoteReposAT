@@ -29,7 +29,7 @@ import javax.ws.rs.core.MediaType;
  */
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java","modules/testcases/jdkAll/server1/basic/src/main/java","modules/testcases/jdkAll/server2/basic/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java"})
 @Path("/providers")
 public class JWTTestResource {
 
