@@ -31,7 +31,7 @@ import java.security.PrivateKey;
  */
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src2/main/java"})
 public class TokenUtils {
 
     private TokenUtils() {

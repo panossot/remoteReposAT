@@ -8,7 +8,7 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src2/main/java"})
 final class JwksServer {
     private final KeyTool keyTool;
     private final int port;

@@ -8,7 +8,7 @@ import javax.ws.rs.core.Application;
 
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src2/main/java"})
 @ApplicationScoped
 @ApplicationPath("/mpjwt")
 @LoginConfig(authMethod = "MP-JWT", realmName = "testSuiteRealm")

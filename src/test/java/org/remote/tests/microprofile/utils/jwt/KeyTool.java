@@ -30,7 +30,7 @@ import javax.json.JsonObject;
  */
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/thorntail/src2/main/java"})
 final class KeyTool {
     private RSAPublicKey publicKey;
     private RSAPrivateCrtKey privateKey;
